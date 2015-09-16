@@ -1,6 +1,6 @@
-package main
+package reverse
 
-import "fmt"
+// import "fmt"
 
 func Reverse(s string) string{
 	rev := []rune(s)
@@ -10,8 +10,8 @@ func Reverse(s string) string{
 	}
 	return string(rev)
 }
-func main() {
+/* func main() {
 
 	fmt.Println(Reverse("Golang"))
 	
-}
+}*/
